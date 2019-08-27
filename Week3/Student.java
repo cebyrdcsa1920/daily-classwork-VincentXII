@@ -11,4 +11,10 @@ public class Student
         this.studentID = studentID;
         this.age = age;
     }
+
+    public static void main(String[] args)
+    {
+        Student vince = new Student("Vince", "647567", 16);
+        System.out.println(vince);
+    }
 }
