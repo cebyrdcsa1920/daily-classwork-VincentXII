@@ -6,6 +6,7 @@ public class Car
     private Color color;
     private int numPassengers;
     private double amountOfGas;
+    private final double mpg;
 
     public Car()
     {
@@ -13,6 +14,7 @@ public class Car
         color = Color.YELLOW;
         numPassengers = 2;
         amountOfGas = 12.5;
+        mpg = 30.0;
     }
 
     /**
